@@ -53,10 +53,10 @@
     }
     #notice, #warning {
         padding: 4px;
-        text-align: left;
+        text-align: center;
     }
     #notice, #warning {
-        background: rosybrown;
+        background: red;
         margin: 1em 0;
         padding: 4px;
     }
