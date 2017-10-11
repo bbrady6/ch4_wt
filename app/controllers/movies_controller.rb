@@ -14,3 +14,10 @@ end
         @movie = Movie.new
         #default: render 'new' template
     end
+    
+    def create
+        @movies = Movie.create!(movie_params)
+        flash[:notice] = "# {@movie.title} was successfully created."
+        redirect_to movies_path
+    end
+    
